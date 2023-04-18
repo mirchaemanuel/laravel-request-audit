@@ -20,6 +20,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property array $server_params
  * @property Carbon $created_at
  * @property Carbon $updated_at
+ *
  * @method static RequestRecord create(array $attributes)
  */
 class RequestRecord extends Model
