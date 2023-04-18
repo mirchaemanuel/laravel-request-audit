@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Factories;
+namespace Illegal\RequestAudit\Database\Factories;
 
 use Illegal\RequestAudit\Models\RequestAudit;
 use Illuminate\Database\Eloquent\Factories\Factory;
