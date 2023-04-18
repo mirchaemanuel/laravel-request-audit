@@ -1,8 +1,8 @@
 # RequestAudit
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/illegalstudio/request-audit.svg?style=flat-square)](https://packagist.org/packages/illegalstudio/request-audit)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/illegalstudio/request-audit/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/illegalstudio/request-audit/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/illegalstudio/request-audit/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/illegalstudio/request-audit/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/illegalstudio/RequestAudit.svg?style=flat-square)](https://packagist.org/packages/illegalstudio/RequestAudit)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/illegalstudio/RequestAudit/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/illegalstudio/RequestAudit/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/illegalstudio/RequestAudit/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/illegalstudio/RequestAudit/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/illegal/request-audit.svg?style=flat-square)](https://packagist.org/packages/illegal/request-audit)
 
 
