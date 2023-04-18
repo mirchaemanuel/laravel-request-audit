@@ -11,8 +11,6 @@ class RequestAudit
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
      * @return mixed
      */
     public function handle(Request $request, Closure $next)
@@ -29,7 +27,6 @@ class RequestAudit
     /**
      * Whether the request should be audited.
      *
-     * @param  \Illuminate\Http\Request  $request
      * @return bool
      */
     protected function shouldAuditRequest(Request $request)
@@ -40,7 +37,6 @@ class RequestAudit
     /**
      * Record the request information.
      *
-     * @param  \Illuminate\Http\Request  $request
      * @return void
      */
     protected function auditRequest(Request $request)

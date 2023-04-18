@@ -2,9 +2,9 @@
 
 namespace Illegal\RequestAudit\Tests;
 
+use Illegal\RequestAudit\RequestAuditServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Illegal\RequestAudit\RequestAuditServiceProvider;
 
 class TestCase extends Orchestra
 {
