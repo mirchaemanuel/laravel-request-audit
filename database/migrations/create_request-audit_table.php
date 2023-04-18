@@ -1,5 +1,6 @@
 <?php
 
+use Illegal\RequestAudit\Models\RequestRecord;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -8,7 +9,7 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('request_audits', function (Blueprint $table) {
+        Schema::create(RequestRecord::table, function (Blueprint $table) {
             $table->id();
             $table->string('url');
             $table->string('method');
@@ -24,8 +25,8 @@ return new class extends Migration
         });
     }
 
-    public function down()
+    public function down(): void
     {
-        Schema::dropIfExists('request_audits');
+        Schema::dropIfExists(RequestRecord::table);
     }
 };
