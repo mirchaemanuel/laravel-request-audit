@@ -2,9 +2,9 @@
 
 namespace Illegal\RequestAudit;
 
+use Illegal\RequestAudit\Commands\RequestAuditCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Illegal\RequestAudit\Commands\RequestAuditCommand;
 
 class RequestAuditServiceProvider extends PackageServiceProvider
 {
